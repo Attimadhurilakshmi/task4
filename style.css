@@ -1,0 +1,132 @@
+body{
+font-family:Arial;
+margin:0;
+background:#f4f6f9;
+}
+
+/* header */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#0a8f6a;
+color:white;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+/* hero */
+
+.hero{
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding:80px 20px;
+background:white;
+}
+
+.hero img{
+width:250px;
+}
+
+.hero span{
+color:#0a8f6a;
+}
+
+button{
+padding:12px 25px;
+border:none;
+background:#0a8f6a;
+color:white;
+cursor:pointer;
+border-radius:6px;
+}
+
+button:hover{
+background:#067a59;
+}
+
+/* sections */
+
+section{
+padding:60px;
+text-align:center;
+}
+
+/* skills */
+
+.skill{
+width:60%;
+margin:auto;
+}
+
+.bar{
+background:#ddd;
+height:10px;
+border-radius:10px;
+margin-bottom:20px;
+}
+
+.bar div{
+height:10px;
+background:#0a8f6a;
+border-radius:10px;
+}
+
+.html{width:90%}
+.css{width:85%}
+.js{width:75%}
+.python{width:70%}
+
+/* projects */
+
+.projects{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:25px;
+width:250px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+/* contact */
+
+form{
+display:flex;
+flex-direction:column;
+width:300px;
+margin:auto;
+}
+
+input,textarea{
+margin:10px 0;
+padding:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+footer{
+background:#222;
+color:white;
+padding:15px;
+text-align:center;
+margin-top:40px;
+}
